@@ -52,7 +52,7 @@ async function checkPoshmark() {
 
   // Scroll to load listings
   let previousHeight = 0;
-  const maxScrolls = 30;
+  const maxScrolls = 10;
 
   for (let i = 0; i < maxScrolls; i++) {
     await page.evaluate(() => {
